@@ -35,3 +35,19 @@ Update
 то есть декапитализация позволит сэкономить 3кб (0,24% от исходного текста в 1239кб), следовательно формально оправдана
 
 4. Время сжатия декапитализированного и исходного текстов одинаковое
+
+Тесты DEFLATE на enwik8/9:  
+
+Enwik8:  
+window_size = 32 kb   
+size = 38819619 b, time = 298.72s, compression_ratio=0.388  
+  
+window_size = 64 kb   
+size = 37599135 b, time = 399.25s, compression_ratio=0.376  
+
+Enwik9:  
+window_size = 32 kb   
+size = 345245757 b, time = 15161.87s (4h 12min), compression_ratio=0.345
+  
+window_size = 64 kb   
+size = 334023945 b, time = 10256s (2h 50min), compression_ratio=0.334 
