@@ -36,18 +36,19 @@ Update
 
 4. Время сжатия декапитализированного и исходного текстов одинаковое
    
-Тесты DEFLATE на enwik8/9:   
-  
-Enwik8:   
-window_size = 32 kb   
-size = 38819619 b, time = 298.72s, compression_ratio=0.388  
+Тесты DEFLATE на enwik8/9:  
+  
+Enwik8:  
+  
+window_size = 32 kb  
+size = 38819619 b, time = 298.72s, compression_ratio=0.388  
     
-window_size = 64 kb     
-size = 37599135 b, time = 399.25s, compression_ratio=0.376    
+window_size = 64 kb  
+size = 37599135 b, time = 399.25s, compression_ratio=0.376  
   
 Enwik9:    
-window_size = 32 kb     
+window_size = 32 kb  
 size = 345245754.00, time = 10549.56 (2h 55min), compression_ratio=0.346  
-    
-window_size = 64 kb    
+  
+window_size = 64 kb  
 size = 334023945 b, time = 10256s (2h 50min), compression_ratio=0.334  
